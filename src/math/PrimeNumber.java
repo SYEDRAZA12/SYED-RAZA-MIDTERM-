@@ -12,7 +12,27 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
+		int limit = 100;
+		int counter = 1;
+		System.out.println("Prime numbers between 1 and " + limit);
 
+		for (int i = 1; i < 100; i++) {
+			boolean isPrime = true;
+
+			for (int j = 2; j < i; j++) {
+
+				if (i % j == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+
+			if (isPrime) {
+				counter++;
+				System.out.print(i + " ");
+			}
+		}
+			System.out.println();
+			System.out.println("Total prime Numbers " + counter);
 	}
-
 }

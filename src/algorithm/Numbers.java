@@ -30,9 +30,9 @@ public class Numbers {
 		ConnectDB connectDB = new ConnectDB();
 		//Selection Sort
 		Sort algo = new Sort();
-		algo.selectionSort(num);
+		//algo.selectionSort(num);
 		long selectionSortExecutionTime = algo.executionTime;
-		System.out.println("Total Execution Time of "+ num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " milli sec");
+		//System.out.println("Total Execution Time of "+ num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " milli sec");
         connectDB.InsertDataFromArryToMySql(num, "selection_sort", "SortingNumbers");
         List<String> numbers = connectDB.readDataBase("selection_sort", "SortingNumbers");
         for(String st:numbers){
@@ -41,11 +41,18 @@ public class Numbers {
 		int n = num.length;
 		randomize (num, n);
 		//Insertion Sort
-		algo.insertionSort(num);
+		//algo.insertionSort(num);
 		long insertionSortExecutionTime = algo.executionTime;
-		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
+		//System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
 
 		//Continue for rest of the Sorting Algorithm....
+
+		algo.bubbleSort(num);
+		long bubbleSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
+
+
+
 
 	}
 
