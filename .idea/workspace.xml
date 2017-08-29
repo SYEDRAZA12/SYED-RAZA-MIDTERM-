@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15e60fdd-90b9-4062-96b0-eeea918c5382" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CodingExamJuly2017.iml" afterPath="$PROJECT_DIR$/SYED-RAZA-CodingExamJuly2017.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Numbers.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Numbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Sort.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/algorithm/Sort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/DataReader.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/datastructure/DataReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/MakePyramid.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/MakePyramid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/PrimeNumber.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/math/PrimeNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/parser/ProcessStudentInfo.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/parser/ProcessStudentInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/parser/Student.class" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/parser/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/core-java-conceptual-questions" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/core-java-conceptual-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/data-structure-questions" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/definition/data-structure-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2017/secret.properties" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2017/secret.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/MakePyramid.java" afterPath="$PROJECT_DIR$/src/math/MakePyramid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/PrimeNumber.java" afterPath="$PROJECT_DIR$/src/math/PrimeNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/secret.properties" afterPath="$PROJECT_DIR$/src/secret.properties" />
-    </list>
+    <list default="true" id="15e60fdd-90b9-4062-96b0-eeea918c5382" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -417,7 +394,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
