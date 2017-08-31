@@ -13,10 +13,28 @@ public class FortuneEmployee {
 	 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 	 *
 	 **/
-	public static void main(String[] args) {
-		
+	public static void main(String[] args)  {
 
+		EmployeeInfo employee1 = new EmployeeInfo(1);
+		EmployeeInfo employee2 = new EmployeeInfo(2,"Sammy");
+		EmployeeInfo employee3 = new EmployeeInfo(3, "Howard", 28, "QA", 99600, 3);
 
+		employee1.setEmployeeName("Keven");
+		employee1.setEmployeeAge(40);
+		employee1.setDepartment("Data Handler");
+		employee1.setSalary(85300);
+		employee1.setPerformance(2);
+
+		employee2.setEmployeeAge(42);
+		employee2.setDepartment("QTP Test Engineer");
+		employee2.setSalary(89320);
+		employee2.setPerformance(4);
+
+		employee1.benefitLayout();
+
+		EmployeeInfo.calculateEmployeeBonus(employee2.getSalary(), employee2.getPerformance());
+
+		EmployeeInfo.calculateEmployeePension(employee3.getSalary());
 	}
 
 }
